@@ -15,7 +15,6 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
 //Servicios
 import { ServiceModule } from './services/service.module';
-import { PromesasComponent } from './pages/promesas/promesas.component';
 
 @NgModule({
   declarations: [
