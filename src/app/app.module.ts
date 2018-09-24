@@ -5,7 +5,7 @@ import { NgModule } from '@angular/core';
 import {APP_ROUTES} from './app.routes';
 
 //MODULOS
-import {PagesModule } from './pages/pages.modulo';
+import {PagesModule } from './pages/pages.module';
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';

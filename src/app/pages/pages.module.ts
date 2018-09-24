@@ -4,6 +4,7 @@
  import {ProgressComponent} from './progress/progress.component';
  import {Graficas1Component} from './graficas1/graficas1.component';
  import {PagesComponent} from './pages.component';
+ import {UsuariosComponent} from './usuarios/usuarios.component';
  import {SharedModule} from '../shared/shared.module';
  import {CommonModule} from '@angular/common';
  import {GraficoDonaComponent} from '../components/grafico-dona/grafico-dona.component';
@@ -24,7 +25,7 @@ import { RxjsComponent } from './rxjs/rxjs.component';
 
 // Pipe Module
  import {PipesModule} from '../pipes/pipes.module';
-
+ import {ModalUploadComponent} from '../components/modal-upload/modal-upload.component';
 
 
  @NgModule({
@@ -38,7 +39,9 @@ import { RxjsComponent } from './rxjs/rxjs.component';
     AccountSettingsComponent,
     PromesasComponent,
     RxjsComponent,
-    ProfileComponent
+    ProfileComponent,
+    UsuariosComponent,
+    ModalUploadComponent
   ],
   exports: [
     DashboardComponent,
